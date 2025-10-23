@@ -8,7 +8,8 @@ description = "Rig vector store index integration for Fastembed. https://github.
 repository = "https://github.com/0xPlaygrounds/rig"
 
 [dependencies]
-rig-core = { path = "../rig-core", version = "0.22.0", default-features = false }
+# rig-core = { path = "../rig-core", version = "0.22.0", default-features = false }
+rig-core = { git = "https://github.com/nielsgreen/rig.git", branch = "bib-rag-base", package = "rig-core", default-features = false }
 serde = { workspace = true, features = ["derive"] }
 serde_json = { workspace = true }
 tracing = { workspace = true }
