@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.14](https://github.com/0xPlaygrounds/rig/compare/rig-milvus-v0.1.13...rig-milvus-v0.1.14) - 2025-10-23
+
+### Added
+
+- *(rig-996)* generic streaming ([#955](https://github.com/0xPlaygrounds/rig/pull/955))
+
 ## [0.1.13](https://github.com/0xPlaygrounds/rig/compare/rig-milvus-v0.1.12...rig-milvus-v0.1.13) - 2025-10-14
 
 ### Other
